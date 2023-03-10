@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   /* font-family: 'poppins',sans-serif;*/
+
+}
+.navbar{
+    display: flex;
+    position: absolute;
+    /*align-items: center;*/
+    justify-content: space-between;
+    padding-top: 40px;
+    /*padding-left: 40%;
+    padding-right: 0%;*/
+    padding: 10px 20px;
+    color: #ff0378;
+    width: 100%;
+    font-size: 30px
+       
+}
+li{
+   /* list-style-type: none;*/
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+li a{
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    /*padding: 0 0px;*/
+}
+.a::after{
+    content: " ";
+    display: block;
+    width: 0%;
+    /*position: relative;*/
+    width: 0%;
+    height: 3px;
+    background: #ff0378;
+    /*transition: width .5s;*/
+    
+}
+.a:hover::after{
+    width: 100%;
+    /*transition: width .5s;*/
+}
+
+body{
+   /*background-color: rgb(0, 0, 0);*/
+   background-image: url('https://img2.goodfon.com/wallpaper/nbig/c/94/burger-kartofel-fri-myaso.jpg');
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   height: 90vh;
+   /*width: 1000px;*/
+   background-attachment: fixed;
+
+}
